@@ -1,1 +1,0 @@
-# naomiruth.github.io
