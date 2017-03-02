@@ -1,20 +1,38 @@
+header {
+  text-align: center;
+}
+
 h1 {
     text-align: center;
+    font-family: helvetica;
+    color: black;
   }
 
 body {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   font-family: helvetica;
 }
 
+input {
+  border: 0;
+  padding: 10px;
+  font-family: helvetica;
+}
+
+input[type="submit"] {
+      background: blue;
+      color: white;
+      font-family: helvetica;
+    }
+
 div {
-    height: 60px;
+    height: 40px;
     width: 100px;
     border-radius: 5px;
-    background-color: white;
+    background-color: blue;
     text-align: center;
     color: black;
-    font-family: Verdana, Arial, Sans-Serif;
+    font-family: helvetica;
     opacity: 0.5;
 }
