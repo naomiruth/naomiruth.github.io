@@ -7,3 +7,14 @@ body {
   color: white;
   font-family: helvetica;
 }
+
+div {
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Arial, Sans-Serif;
+    opacity: 0.5;
+}
