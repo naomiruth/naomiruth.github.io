@@ -6,6 +6,10 @@ ul {
   padding: 10px;
 }
 
+li {
+  display: inline;
+}
+
 h1 {
     text-align: center;
     font-family: helvetica;
@@ -31,12 +35,12 @@ input[type="submit"] {
     }
 
 div {
-    height: 40px;
+    height: 60px;
     width: 100px;
     border-radius: 5px;
     background-color: blue;
     text-align: center;
     color: black;
     font-family: helvetica;
-    opacity: 0.5;
+    opacity: 1;
 }
