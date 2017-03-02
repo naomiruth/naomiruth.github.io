@@ -2,6 +2,10 @@ header {
   text-align: center;
 }
 
+ul {
+  padding: 10px;
+}
+
 h1 {
     text-align: center;
     font-family: helvetica;
