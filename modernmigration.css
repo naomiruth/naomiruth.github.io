@@ -1,7 +1,9 @@
 header {
   text-align: center;
-  background-size: 100% cover;
-  background: url("http://thebluediamondgallery.com/dictionary/immigration.jpg");
+  background-size: cover;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-image: url("images/immigration.jpg");
 }
 
 ul {
