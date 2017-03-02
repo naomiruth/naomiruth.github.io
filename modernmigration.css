@@ -4,13 +4,9 @@ header {
   background: url("http://thebluediamondgallery.com/dictionary/immigration.jpg");
 }
 
-img {
-     margin: 40px 0px 40px 0px;
-   }
-
 ul {
   padding: 10px;
-  background: black;
+  background-color: black;
 }
 
 a {
