@@ -8,6 +8,7 @@ ul {
 
 li {
   display: inline;
+  padding: 0px 10px 0px 10px;
 }
 
 h1 {
@@ -43,4 +44,5 @@ div {
     color: black;
     font-family: helvetica;
     opacity: 1;
+    padding-top: 10px;
 }
