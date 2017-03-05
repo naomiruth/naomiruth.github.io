@@ -1,14 +1,21 @@
 header {
   text-align: center;
   background-size: cover;
-  padding: 50px;
+  padding: 300px;
   background-repeat: no-repeat;
-  background-image: url("images/immigration.jpg");
+  background-image: url("images/smallboy.jpg");
 }
 
 ul {
   padding: 10px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: helvetica;
+}
+
+img {
+  width: 550px;
+  display: block;
+  margin: auto;
 }
 
 a {
@@ -20,16 +27,39 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
+.list {
+  display: list-item;
+}
+
 h1 {
     text-align: center;
-    font-family: helvetica;
-    color: blue;
+    font-family: "Playfair Display";
+    font-size: 50px;
+    color: black;
   }
 
+  h2 {
+    font-family: "Playfair Display";
+    text-align: center;
+    color: black;
+  }
+
+  p {
+    font-family: "Playfair Display";
+    text-align: justify;
+    color: black;
+  }
+
+article {
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 body {
-  background: white;
+  background: lightgrey;
   color: black;
-  font-family: helvetica;
+  font-family: "Playfair Display";
 }
 
 input {
@@ -45,13 +75,24 @@ input[type="submit"] {
     }
 
 div {
-    height: 60px;
+    height: 55px;
     width: 100px;
-    border-radius: 5px;
-    background-color: blue;
+    border-radius: 10px;
+    background-color: black;
     text-align: center;
-    color: black;
-    font-family: helvetica;
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 20px;
     opacity: 1;
-    padding: 5px 0px;
+    padding: 10px 24px;
 }
+
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
