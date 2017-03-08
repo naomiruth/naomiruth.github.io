@@ -9,7 +9,7 @@ header {
 ul {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
-  font-family: helvetica;
+  font-family: "Consolas";
 }
 
 img {
@@ -19,6 +19,10 @@ img {
 }
 
 a {
+  color: black;
+}
+
+.header {
   color: white;
 }
 
@@ -29,23 +33,28 @@ li {
 
 .list {
   display: list-item;
+  font-size: 110%;
 }
 
 h1 {
     text-align: center;
-    font-family: "Playfair Display";
+    font-family: "Consolas";
     font-size: 50px;
     color: black;
   }
 
   h2 {
-    font-family: "Playfair Display";
+    font-family: "Calibri";
     text-align: center;
     color: black;
   }
 
+  h3 {
+    font-family: "Consolas";
+  }
+
   p {
-    font-family: "Playfair Display";
+    font-family: "Calibri";
     text-align: justify;
     color: black;
   }
@@ -59,7 +68,7 @@ article {
 body {
   background: lightgrey;
   color: black;
-  font-family: "Playfair Display";
+  font-family: "Calibri";
 }
 
 input {
@@ -81,7 +90,7 @@ div {
     background-color: black;
     text-align: center;
     color: white;
-    font-family: "Playfair Display";
+    font-family: "Calibri";
     font-size: 20px;
     opacity: 1;
     padding: 10px 24px;
