@@ -78,22 +78,26 @@ input {
 }
 
 input[type="submit"] {
-      background: blue;
+      background: black;
       color: white;
-      font-family: helvetica;
+      font-family: "Calibri";
     }
 
+input[type="reset"] {
+    background: white;
+    color: black;
+    font-family: "Calibri";
+}
+
 div {
-    height: 55px;
+    height: 60px;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: black;
     text-align: center;
     color: white;
     font-family: "Calibri";
-    font-size: 20px;
     opacity: 1;
-    padding: 10px 24px;
 }
 
 @media (max-width: 500px) {

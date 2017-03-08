@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Contact Us</title>
   <link rel="stylesheet" type="text/css" href="modernmigration.css"/>
@@ -17,4 +18,15 @@
   </header>
   <h1>Modern Migration</h1>
   <p>To contact us, please fill in the form below:</p>
+  <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+      <input type="text" name="name"><br>
+    E-mail:<br>
+      <input type="text" name="mail"><br>
+    Message:<br>
+      <input type="text" name="message" size="100"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+  </form>
 </body>
+</html>
